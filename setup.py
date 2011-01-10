@@ -16,7 +16,7 @@ def read(*rnames):
 long_description = (
     read('README.txt')
     + '\n' +
-    read('js', 'jquery_tablesorter', 'test_jquery tablesorter.txt')
+    read('js', 'jquery_tablesorter', 'test_jquery_tablesorter.txt')
     + '\n' +
     read('CHANGES.txt'))
 
@@ -39,7 +39,7 @@ setup(
         ],
     entry_points={
         'fanstatic.libraries': [
-            'jquery tablesorter = js.jquery_tablesorter:library',
+            'jquery_tablesorter = js.jquery_tablesorter:library',
             ],
         },
     )
