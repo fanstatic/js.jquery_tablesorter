@@ -37,6 +37,7 @@ setup(
         'fanstatic',
         'setuptools',
         'js.jquery',
+        'js.jquery_metadata',
         ],
     entry_points={
         'fanstatic.libraries': [
